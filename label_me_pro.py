@@ -55,8 +55,8 @@ if __name__ == '__main__':
     if not os.path.exists(res_dir + '/Overlay'):
         os.makedirs(res_dir + '/Overlay')
     i = 0
-    line_width = 1
-    cv2.namedWindow("Label me")
+    line_width = 2
+    cv2.namedWindow("Label me", cv2.WINDOW_NORMAL)
     cv2.setMouseCallback("Label me", add_point_to_line)
     stop = False
     for filename in os.listdir(img_dir):
