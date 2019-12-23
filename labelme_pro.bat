@@ -1,1 +1,0 @@
-python-3.7.4-embed-amd64\python.exe label_me_pro.py -d figs -r labeled_figs
